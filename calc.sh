@@ -11,4 +11,7 @@ result=$(echo "$n1 - $n2" | bc -l)
 echo "Sub is =" $result;;
 result=$(echo "$n1 * $n2" | bc -l)
 echo "Mul is =" $result;;
+result=$(echo "$n1 / $n2" | bc -l)
+echo "div is =" $result;;
+done
 
